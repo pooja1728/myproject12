@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block head_title %}{{ title }} | {{ block.super }} MyWebsite.com {% endblock head_title %}</title>
+{% block content %}
+<h1>{{ title }}</h1>
+
+{% include 'snippet/form-snippet.html' %}
+
+{% endblock content %}
